@@ -1,0 +1,128 @@
+body{
+    font-family:"Open Sans";
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+nav{
+    justify-content: space-between;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    
+}
+.mary-hd{
+    font-size: 40px;
+    font-weight: 800;
+    align-items: center;
+    margin-top: 13px;
+}
+.had-bg{
+    
+    background-image: url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-color: #FFF8F3 ;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.nav-var{
+    display: flex;
+    margin-left: 150px;
+    
+}
+.page{
+    display: flex;
+    align-items: center;
+    
+}
+nav a:hover{
+    background-color: lightgrey;
+}
+.mary{
+    color:#FD6E0A;
+}
+.primary-btn{
+    background-color: #FD6E0A;
+    border: 0px;
+    border-radius: 2px;
+    padding: 0px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 35px;
+}
+.bg-banar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 150px;
+
+
+}
+.another-bg{
+    background-image: url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.p-about{
+    display: flex;
+    justify-content: space-around;
+}
+.about-section{
+    width: 1100px;
+    text-align: center;
+    margin: auto;
+    padding: 50px 30px;
+    background-color: #f0e9e5;
+    margin-top: 100px;
+
+}
+.about-section-2{
+    width: 1100px;
+    text-align: center;
+    margin: auto;
+    padding: 50px 30px;
+    margin-top: 100px;
+}
+.card-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.card{
+    height: 300px;
+    width: 200px;
+    border: 2px solid #f1eded;
+    padding: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.primary-btn-gold{
+    background-color: #FD6E0A;
+    border: 0px;
+    border-radius: 2px;
+    padding: 0px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 35px;
+    margin-left: 450px;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    padding: 200px;
+}
